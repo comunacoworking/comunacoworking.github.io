@@ -20,6 +20,10 @@ header {
   background-attachment: fixed;
   background-size: cover; }
 
+header a{
+  color: #fff;
+}
+
 /*Asides styles*/
 aside {
   color: #FFFFFF;
