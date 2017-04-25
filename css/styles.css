@@ -23,7 +23,9 @@ header {
 header a{
   color: #fff;
 }
-
+header a:hover{
+  color: #ff6633;
+}
 /*Asides styles*/
 aside {
   color: #FFFFFF;
@@ -202,8 +204,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
   border-radius: 3px; }
   button.naranja {
     background-color: #FF6633; }
