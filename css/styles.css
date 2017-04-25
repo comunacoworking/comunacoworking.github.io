@@ -11,6 +11,7 @@ body {
 /*Header style*/
 header {
   font-family: "Poppins", sans-serif;
+  color: #fff;
   font-size: 20px;
   /*background-color: $white-color;*/
   background-image: url(../assets/img/coworking-space.png);
