@@ -290,7 +290,7 @@ span.glyphicon-menu-down {
   list-style: none;
   padding: 0 0 20px;
   margin: 0 0 15px;
-  background: #fff;
+  background: rgba(255,255,255,0.8);
   text-align: center;
 }
 .flat .plan li {
@@ -300,10 +300,10 @@ span.glyphicon-menu-down {
   transition: 300ms;
 }
 .flat .plan li .glyphicon-ok{
-	color: green; }
+	color: green;
 }
 .flat .plan li .glyphicon-minus{
-	color: red; }
+	color: red;
 }
 .flat .plan li.plan-price {
   border-top: 0;
@@ -331,13 +331,7 @@ span.glyphicon-menu-down {
   transform: scale(1.1);
 }
 .flat .plan.featured li.plan-name {
-  background: #000;
-}
-.flat .plan.featured:hover li.plan-name {
   background: #61b0b8;
-}
-.flat .plan:hover li.plan-name {
-  background: #000;
 }
 
 /*Animate.css rules*/
