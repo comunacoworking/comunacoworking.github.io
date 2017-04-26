@@ -12,7 +12,7 @@ $(function() {
         }
     });*/
     //on scroll, show the back to top button
-    /*$(window).scroll(function(){
+    $(window).scroll(function(){
         if($(window).scrollTop() >= 1){ //if user has scrolled the window
             $('.backToTop').fadeIn(500); // show the back to top button
         }else { // else if user is at the top already
@@ -22,19 +22,19 @@ $(function() {
     //scroll the page to the top if user clicks on the back to top button
     $('.backToTop').click(function(){$('html,body').animate({ scrollTop: 0 }, 'slow');});
     //If page was already scrolled down before load show the back to top button
-    if($(window).scrollTop() >= 1){$('.backToTop').show();}*/
+    if($(window).scrollTop() >= 1){$('.backToTop').show();}
 });
 
 
 // jQuery extend function to animate elements
-/*$.fn.extend({
+$.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         $(this).addClass('animated ' + animationName).one(animationEnd, function() {
             $(this).removeClass('animated ' + animationName);
         });
     }
-});*/
+});
 
 $(function() {
 
@@ -77,7 +77,7 @@ $(function() {
   // setup your carousels as you normally would using JS
   // or via data attributes according to the documentation
   // http://getbootstrap.com/javascript/#carousel
-  $('#carousel123').carousel({ interval: 2000 });
+  $('#carousel123').carousel({ interval: 4000 });
 }());
 
 (function(){
