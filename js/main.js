@@ -27,14 +27,14 @@ $(function() {
 
 
 // jQuery extend function to animate elements
-$.fn.extend({
+/*$.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         $(this).addClass('animated ' + animationName).one(animationEnd, function() {
             $(this).removeClass('animated ' + animationName);
         });
     }
-});
+});*/
 
 $(function() {
 
@@ -46,11 +46,11 @@ $(function() {
     // }, time);
 
     // Animate job openings button on click
-    $('#job-opennings').click(function(event) {
+    /*$('#job-opennings').click(function(event) {
         event.preventDefault();
         $(this).animateCss('wobble');
         swal('Pronto tendremos más noticias');
-    });
+    });*/
 
     // Show a sweet alert on form submit
     $contactForm = $('#contact-form');
@@ -79,7 +79,6 @@ $(function() {
   // or via data attributes according to the documentation
   // http://getbootstrap.com/javascript/#carousel
   $('#carousel123').carousel({ interval: 3000 });
-  $('#carouselABC').carousel({ interval: 3600 });
 }());
 
 (function(){
