@@ -344,7 +344,7 @@ span.glyphicon-menu-down {
 {
   .carousel-control
   { 
-    width: 4%;
+    width: 3%;
     background-image:none;
 
     &.left 
@@ -475,12 +475,12 @@ span.glyphicon-menu-down {
 }
 
 .carousel img{
-opacity: 0.5;
+opacity: 0.7;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-	    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+	    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 }
 .carousel img:hover{
  opacity: 1.0;
