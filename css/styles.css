@@ -477,10 +477,10 @@ span.glyphicon-menu-down {
 .carousel img{
 opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-	    -webkit-transition: all 500ms ease-out 1s;
-    -moz-transition: all 500ms ease-out 1s;
-    -o-transition: all 500ms ease-out 1s;
-    transition: all 500ms ease-out 1s;
+	    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 .carousel img:hover{
  opacity: 1.0;
