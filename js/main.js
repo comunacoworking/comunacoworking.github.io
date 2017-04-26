@@ -1,7 +1,7 @@
 // Scrolling functions and such
 $(function() {
     //Smooth scrolling on any anchor. Taken from https://css-tricks.com/snippets/jquery/smooth-scrolling/
-    $('a[href*="#"]:not([href="#"])').click(function() {
+    /*$('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -10,7 +10,7 @@ $(function() {
                 return false;
             }
         }
-    });
+    });*/
     //on scroll, show the back to top button
     $(window).scroll(function(){
         if($(window).scrollTop() >= 1){ //if user has scrolled the window
