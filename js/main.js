@@ -98,6 +98,5 @@ $(function() {
         .addClass("cloneditem-"+(i))
         .appendTo($(this));
     }
-      window.CP.exitedLoop(1);
   });
 }());
