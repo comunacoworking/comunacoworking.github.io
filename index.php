@@ -180,28 +180,76 @@
       <div class="carousel carousel-showmanymoveone slide" id="carousel123">
         <div class="carousel-inner">
           <div class="item parent active">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="http://www.cuatlapana.com/" target="_blank"><img src="assets/img/comunero01.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="http://www.cuatlapana.com/" target="_blank"><img src="assets/img/comunero01.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Macky Marín<br><span>Cuatlapana</span></div>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="item parent">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.facebook.com/Euresis-2120455664846249/" target="_blank"><img src="assets/img/comunero02.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.facebook.com/Euresis-2120455664846249/" target="_blank"><img src="assets/img/comunero02.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Emmanuel Villanueva<br><span>Euresis</span></div>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="item parent">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.christcastillo.com/" target="_blank"><img src="assets/img/comunero03.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.christcastillo.com/" target="_blank"><img src="assets/img/comunero03.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Christ Castillo<br><span>Diseño Empresarial</span></div>
+                </div>
+              </a>
+            </div>
           </div>          
           <div class="item parent">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.facebook.com/EricChamaMKT/" target="_blank"><img src="assets/img/comunero04.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.facebook.com/EricChamaMKT/" target="_blank"><img src="assets/img/comunero04.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Eric Chama<br><span>Mercadotécnia para la vida</span></div>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="item parent">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.facebook.com/FunMathOrizaba/" target="_blank"><img src="assets/img/comunero05.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.facebook.com/FunMathOrizaba/" target="_blank"><img src="assets/img/comunero05.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Selene Ramírez<br><span>Fun Math</span></div>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="item parent"> 
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.facebook.com/farleyvalenzuelaespinosa/" target="_blank"><img src="assets/img/comunero06.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.facebook.com/farleyvalenzuelaespinosa/" target="_blank"><img src="assets/img/comunero06.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Farley Valenzuela<br><span>Liderazgo en movimiento</span></div>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="item parent">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.facebook.com/erenutricion/" target="_blank"><img src="assets/img/comunero07.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.facebook.com/erenutricion/" target="_blank"><img src="assets/img/comunero07.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Erendira Hernánde<br><span>Nutrióloga Clínica</span></div>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="item parent">
-            <div class="col-xs-12 col-sm-6 col-md-3 child"><a href="https://www.indexo.mx/" target="_blank"><img src="assets/img/comunero08.png" class="img-responsive"></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 child container">
+              <a href="https://www.indexo.mx/" target="_blank"><img src="assets/img/comunero08.png" class="img-responsive image">
+                <div class="middle">
+                  <div class="text">Chucho Vergara<br><span>Indexo</span></div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
         <a class="left carousel-control" href="#carousel123" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
@@ -254,7 +302,7 @@
                 <li>Precio especial para talleres</li>
                 <li>Reuniones comuneras</li>
                 <li class="plan-action">
-                  * Agenta disponible<br>** 50 p/coworker
+                  * Agenta disponible<br>** 25 p/coworker
                 </li>
             </ul>
         </div>
@@ -278,7 +326,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-xs-12">
                 <ul class="plan plan2 ">
-                    <li class="plan-name">Invitado</li>
+                    <li class="plan-name">Partner</li>
                 <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></li>
                 <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></li>
                 <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></li>
@@ -297,7 +345,7 @@
 
          <div class="col-lg-3 col-md-6 col-xs-12">
             <ul class="plan plan3">
-                <li class="plan-name">Partner</li>
+                <li class="plan-name">Invitado</li>
                                <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></li>
                 <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></li>
                 <li><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></li>
@@ -317,6 +365,50 @@
 
     </section>
 
+  <section class="instagram" id="instagram">
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="page-header">
+                <h2>Instagram</h2>
+            </div>
+            <?php
+			// use this instagram access token generator http://instagram.pixelunion.net/
+			$access_token="3269157073.1677ed0.629dd087d58845c6a7c1346e670329da";
+			$photo_count=9;
+			     
+			$json_link="https://api.instagram.com/v1/users/self/media/recent/?";
+			$json_link.="access_token={$access_token}&count={$photo_count}";
+
+			$json = file_get_contents($json_link);
+			$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
+
+			foreach ($obj['data'] as $post) {
+			    $pic_text=$post['caption']['text'];
+			    $pic_link=$post['link'];
+			    $pic_like_count=$post['likes']['count'];
+			    $pic_comment_count=$post['comments']['count'];
+			    $pic_src=str_replace("http://", "https://", $post['images']['standard_resolution']['url']);
+			    $pic_created_time=date("F j, Y", $post['caption']['created_time']);
+			    $pic_created_time=date("F j, Y", strtotime($pic_created_time . " +1 days"));
+			     
+			    echo "<div class='col-md-4 col-sm-6 col-xs-12 item_box'>";        
+			        echo "<a href='{$pic_link}' target='_blank'>";
+			            echo "<img class='img-responsive photo-thumb' src='{$pic_src}' alt='{$pic_text}'>";
+			        echo "</a>";
+			        echo "<p>";
+			            echo "<p>";
+			                echo "<div style='color:#888;'>";
+			                    echo "<a href='{$pic_link}' target='_blank'>{$pic_created_time}</a>";
+			                echo "</div>";
+			            echo "</p>";
+			            echo "<p>{$pic_text}</p>";
+			        echo "</p>";
+			    echo "</div>";
+			}
+			?>
+        </div>
+      </div>
+    </section>
     <!-- Contacto -->
     <section class="contacto" id="contacto">
       <div class="row">

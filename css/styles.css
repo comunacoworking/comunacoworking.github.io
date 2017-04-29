@@ -395,13 +395,50 @@ span.glyphicon-menu-down {
   background: #61b0b8;
 }
 
-.parent:hover .child {
-    opacity: 0.65;
+.container {
+    position: relative;
 }
-.parent .child:hover {
-    opacity: 1;
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #303d3d;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+  text-align: center;
+  transition: .5s ease;
+}
+
+.text span{
+  color: #ff6633;
+  font-weight: bold;
+  font-size: 18px;
+}
 .carousel-showmanymoveone .carousel-control {
   width: 4%;
   background-image: none;
@@ -430,6 +467,19 @@ span.glyphicon-menu-down {
   left: 0;
   width: 100% !important;
   height: 100% !important;
+}
+
+.item_box{
+    height:500px;
+}
+ 
+.photo-thumb{
+    width:100%;
+    height:auto;
+    float:left; 
+    border: thin solid #d1d1d1;
+    margin:0 1em .5em 0;
+    float:left; 
 }
 
 @media all and (min-width: 768px) {
